@@ -26,10 +26,10 @@ author:
   name             : "Your Sidebar Name"
   pronouns         : # example: "she/her"  
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  location         : "Estonia"
+  employer         : "Tallinn University"
   uri              : # URL
-  email            : "none@example.org" 
+  email            : "yan.awadchy (at) gmail.com" 
 
   # Academic websites
   academia         : # URL
