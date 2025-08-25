@@ -23,13 +23,13 @@ repository               : "academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "Yan Asadchy"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
+  bio              : "Researcher and Designer"
   location         : "Estonia"
   employer         : "Tallinn University"
   uri              : # URL
-  email            : "yan.awadchy (at) gmail.com"
+  email            : "yan.asadchy (at) gmail.com"
   website          : "www.affinity.ee
 
   # Academic websites
