@@ -28,9 +28,8 @@ author:
   bio              : "Researcher and Designer"
   location         : "Estonia"
   employer         : "Tallinn University"
-  uri              : # URL
-  email            : "yan.asadchy (at) gmail.com"
-  website          : "www.affinity.ee"
+  uri              : "www.affinity.ee"
+  email            : "yan.asadchy (at) gmail.com" 
 
   # Academic websites
   arxiv            : "https://arxiv.org/search/physics?searchtype=author&query=Asadchy,+Y"
