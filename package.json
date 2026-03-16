@@ -9,12 +9,26 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@fontsource/jetbrains-mono": "^5.2.8",
+    "@fontsource/tiktok-sans": "^5.2.4",
+    "@tailwindcss/typography": "^0.5.19",
+    "flexsearch": "^0.8.212",
+    "gray-matter": "^4.0.3",
+    "lucide-react": "^0.563.0",
     "next": "16.1.6",
+    "next-mdx-remote": "^6.0.0",
+    "next-themes": "^0.4.6",
     "react": "19.2.3",
-    "react-dom": "19.2.3"
+    "react-dom": "19.2.3",
+    "rehype-autolink-headings": "^7.1.0",
+    "rehype-pretty-code": "^0.14.1",
+    "rehype-slug": "^6.0.0",
+    "remark-gfm": "^4.0.1",
+    "shiki": "^3.22.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4",
+    "@types/flexsearch": "^0.7.6",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
