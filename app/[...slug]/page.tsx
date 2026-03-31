@@ -67,9 +67,20 @@ export default async function SlugPage({ params }: PageProps) {
         <article className="flex-1 min-w-0 max-w-3xl">
           {breadcrumbs.length > 0 && <Breadcrumbs items={breadcrumbs} />}
 
+          {/* Cover image */}
+          {page.coverImage && (
+            <div className="mb-8 -mx-6 md:mx-0 overflow-hidden rounded-lg">
+              <img
+                src={page.coverImage}
+                alt={page.title}
+                className="w-full h-48 sm:h-64 md:h-80 object-cover"
+              />
+            </div>
+          )}
+
           {/* Page header */}
           <div className="mb-8">
-            {page.icon && (
+            {page.icon && !page.coverImage && (
               <div className="mb-4 text-accent">
                 {getIcon(page.icon, 'w-10 h-10')}
               </div>

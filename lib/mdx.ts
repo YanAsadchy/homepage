@@ -8,6 +8,7 @@ export interface PageMeta {
   title: string;
   description: string;
   icon?: string;
+  coverImage?: string;
   order?: number;
   slug: string;
 }
@@ -56,6 +57,7 @@ export function getPageBySlug(slug: string): PageData | null {
     title: data.title || '',
     description: data.description || '',
     icon: data.icon || undefined,
+    coverImage: data.coverImage || undefined,
     order: data.order || 0,
     slug,
     content,
