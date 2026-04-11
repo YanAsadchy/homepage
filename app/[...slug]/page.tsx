@@ -69,12 +69,17 @@ export default async function SlugPage({ params }: PageProps) {
 
           {/* Cover image */}
           {page.coverImage && (
-            <div className="mb-8 -mx-6 md:mx-0 overflow-hidden rounded-lg">
-              <img
-                src={page.coverImage}
-                alt={page.title}
-                className="w-full h-48 sm:h-64 md:h-80 object-cover"
-              />
+            <div className="mb-8 -mx-6 md:mx-0">
+              <div className="overflow-hidden rounded-lg">
+                <img
+                  src={page.coverImage}
+                  alt={page.title}
+                  className="w-full h-48 sm:h-64 md:h-80 object-cover"
+                />
+              </div>
+              {page.coverCaption && (
+                <p className="mt-2 text-xs text-muted-foreground italic px-6 md:px-0">{page.coverCaption}</p>
+              )}
             </div>
           )}
 
