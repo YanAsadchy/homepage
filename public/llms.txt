@@ -1,0 +1,48 @@
+# Yan Asadchy — Product Designer & Researcher
+
+> Personal academic portfolio of Yan Asadchy. Researcher, designer, and educator based in Tallinn, Estonia.
+
+## About
+
+Yan Asadchy is a strategic product designer and researcher with 8+ years of experience across tech, healthcare, legal, and cultural sectors. He is a PhD candidate (ABD) in Cultural Data Analytics at Tallinn University and a former research intern at MIT Media Lab. He founded Affinity OU, an R&D agency building web and mobile applications for startups and research institutions.
+
+**Current role**: Head of Design at Generait AI Solutions (Dublin, Ireland) — Aug 2023 to Sep 2025
+**Location**: Tallinn, Estonia
+**Contact**: yan.asadchy@gmail.com
+**LinkedIn**: https://www.linkedin.com/in/yan-asadchy/
+
+## Key Achievements
+
+- Designed a Microsoft Office legal-tech add-in at Generait that improved workflows by 20% and saved €800 per seat per week in billable time
+- Applied big data analysis of cellphone and geospatial data at MIT Media Lab to study post-COVID cultural consumption recovery
+- Designed and deployed a gamified health app now used in hospitals across Europe for MS patients
+- Published peer-reviewed research in Humanities and Social Sciences Communications (Springer Nature) and International Journal of Communication
+- Conducted research in the €2.5 million Horizon 2020 CUDAN project at the intersection of data science and cultural studies
+
+## Pages
+
+- [Welcome](https://yanasadchy.com/): Introduction and overview
+- [About](https://yanasadchy.com/about): Summary, skills, and professional background
+- [CUDAN Open Lab](https://yanasadchy.com/about/cultural-data): Research at CUDAN — data mining, ML, social media analysis
+- [Publications](https://yanasadchy.com/about/publications): Peer-reviewed papers, preprints, and media appearances
+- [Teaching — Data Visualisation](https://yanasadchy.com/teaching/data-visualisation): 10-day course on data visualisation with Python and AI
+- [Teaching — Design Systems](https://yanasadchy.com/teaching/design-systems): 10-day practical course on design systems using Figma
+- [Contact](https://yanasadchy.com/contacts): Contact information and collaboration enquiries
+
+## Skills
+
+**Design & Research**: Figma, Adobe Suite, user interviews, usability testing, A/B testing, design systems, UX research, prototyping
+**Data & Analytics**: Python (Pandas, NumPy, Matplotlib, Seaborn), Jupyter Notebooks, machine learning, NLP, data visualisation, network analysis
+**Collaboration**: Agile, Jira, Confluence, Notion, Miro, stakeholder engagement, cross-functional team leadership
+
+## Education
+
+- PhD (ABD) Cultural Data Analytics — Tallinn University, 2019–2025
+- MSc Human-Computer Interaction — Tallinn University, 2017–2019
+- BSc Mechanical/Electrical Engineering — Belarusian State Technological University, 2008–2013
+
+## Selected Publications
+
+- Asadchy, Y., Karjus, A., Mukhina, K., & Schich, M. (2024). Perceived gendered self-representation on Tinder using machine learning. *Humanities and Social Sciences Communications*, 11(1), 1–11. (Springer Nature)
+- Jaramillo-Dent, D., Alencar, A. P., & Asadchy, Y. (2022). #Migrantes on TikTok: Exploring platformed belongings. *International Journal of Communication*, 16, 5578–5602.
+- Asadchy, Y., & Schich, M. (2024). Descriptions of women are longer than that of men: An analysis of gender portrayal prompts in Stable Diffusion. arXiv:2411.18994.
