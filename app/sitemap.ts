@@ -1,4 +1,6 @@
 import { MetadataRoute } from 'next';
+
+export const dynamic = 'force-static';
 import { flattenNav, navigation } from '@/lib/navigation';
 
 const BASE_URL = 'https://yanasadchy.com';
