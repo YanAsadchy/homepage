@@ -89,7 +89,7 @@ function CTAButton({ href, children }: { href: string; children: ReactNode }) {
       href={href}
       target="_blank"
       rel="noopener noreferrer"
-      className="not-prose inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md text-sm bg-accent text-black font-medium hover:opacity-90 transition-default no-underline"
+      className="not-prose inline-flex items-center gap-1.5 px-3 py-3 rounded-md text-sm bg-accent text-black font-medium hover:opacity-90 transition-default no-underline"
     >
       {children}
       <ExternalLink className="w-4 h-4" />
