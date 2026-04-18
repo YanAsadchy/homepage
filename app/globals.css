@@ -129,9 +129,9 @@ body {
 .prose h3 { font-size: 1.25rem; line-height: 1.4; margin-top: 2rem; }
 
 .prose a {
-  color: var(--hyperlink);
+  color: #1a1a1a;/*var(--hyperlink);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 2px;*/
   transition: opacity 200ms;
 }
 .prose a:hover {
