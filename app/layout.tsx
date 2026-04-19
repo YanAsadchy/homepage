@@ -27,7 +27,7 @@ export const metadata: Metadata = {
     'Generait',
     'legal tech design',
     'Figma',
-    'Python data viz',
+    'Python',
     'portfolio',
   ],
   authors: [{ name: 'Yan Asadchy', url: BASE_URL }],

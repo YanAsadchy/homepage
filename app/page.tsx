@@ -50,7 +50,8 @@ const personSchema = {
     },
     {
       '@type': 'CollegeOrUniversity',
-      name: 'Belarusian State Technological University',
+      name: 'Massachusetts Institute of Technology',
+      url: 'https://www.mit.edu',
     },
   ],
   affiliation: [
