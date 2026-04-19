@@ -100,7 +100,7 @@ function CTAButton({ href, children }: { href: string; children: ReactNode }) {
 function Tooltip({ term, description }: { term: string; description: string }) {
   return (
     <span className="not-prose relative inline-block group cursor-help">
-      <span className="border-b border-dashed" style={{ borderColor: 'var(--accent)' }}>{term}</span>
+      <span className="border-b border-dashed" style={{ borderColor: 'var(--underline)' }}>{term}</span>
       <span className="absolute bottom-full left-1/2 -translate-x-1/2 mb-2.5 w-56 px-3 py-2 rounded-lg border text-xs leading-relaxed font-normal text-left opacity-0 group-hover:opacity-100 pointer-events-none transition-default z-50 whitespace-normal"
         style={{
           background: 'var(--card)',

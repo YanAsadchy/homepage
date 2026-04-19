@@ -34,7 +34,8 @@
   --background: #FAFAFA;
   --foreground: #1a1a1a;
   --accent: #c0fe04;
-  --accent-light: #101828; /* c0fe04 101828*/
+  --accent-light: #101828;
+  --underline: #101828; /* c0fe04 101828*/
   --muted: #F4F4F5;
   --muted-foreground: #71717A;
   --border-color: #E4E4E7;
