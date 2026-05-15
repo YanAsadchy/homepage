@@ -68,9 +68,10 @@ export default function TableOfContents({ headings }: { headings: Heading[] }) {
                   ${
                     activeId === heading.id
                       ? 'text-accent font-medium'
-                      : 'text-muted-foreground hover:text-foreground'
+                      : 'hover:text-foreground'
                   }
                 `}
+                style={activeId !== heading.id ? { color: 'var(--accent-list-of-content)' } : undefined}
               >
                 {heading.text}
               </a>
