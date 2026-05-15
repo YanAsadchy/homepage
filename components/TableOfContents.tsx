@@ -67,11 +67,11 @@ export default function TableOfContents({ headings }: { headings: Heading[] }) {
                   ${heading.level === 3 ? 'pl-3' : ''}
                   ${
                     activeId === heading.id
-                      ? 'text-accent font-medium'
-                      : 'hover:text-foreground'
+                      ? 'font-medium'
+                      : 'text-muted-foreground hover:text-foreground'
                   }
                 `}
-                style={activeId !== heading.id ? { color: 'var(--accent-list-of-content)' } : undefined}
+                style={activeId === heading.id ? { color: 'var(--accent-list-of-content)' } : undefined}
               >
                 {heading.text}
               </a>
