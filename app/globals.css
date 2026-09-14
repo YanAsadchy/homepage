@@ -22,6 +22,7 @@
   --color-card-foreground: var(--card-foreground);
   --color-sidebar: var(--sidebar-bg);
   --color-sidebar-foreground: var(--sidebar-fg);
+  --color-sidebar-active: var(--sidebar-active);
   --color-header: var(--header-bg);
 
   --font-heading: 'TikTok Sans', system-ui, sans-serif;
@@ -43,6 +44,7 @@
   --card-foreground: #1a1a1a;
   --sidebar-bg: #FAFAFA;
   --sidebar-fg: #3f3f46;
+  --sidebar-active: #E4E4E7;
   --header-bg: rgba(250, 250, 250, 0.8);
   --hyperlink: #0080ff;
   --accent-list-of-content: #1a1a1a;
@@ -62,6 +64,7 @@
   --card-foreground: #EDEDED;
   --sidebar-bg: #111111;
   --sidebar-fg: #A1A1AA;
+  --sidebar-active: #27272A;
   --header-bg: rgba(17, 17, 17, 0.8);
   --hyperlink: #0080ff;
   --accent-list-of-content: #EDEDED;

@@ -13,12 +13,12 @@ export default function PageNavigation({ prev, next }: PageNavigationProps) {
       {prev ? (
         <Link
           href={prev.href}
-          className="flex-1 flex items-center gap-3 p-4 rounded-lg border border-border hover:border-accent hover:bg-accent-light/50 transition-default group"
+          className="flex-1 flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:bg-muted transition-default group"
         >
-          <ChevronLeft className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-default" />
+          <ChevronLeft className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-default" />
           <div className="text-right flex-1">
             <p className="text-xs text-muted-foreground mb-0.5">Previous</p>
-            <p className="text-sm font-medium text-foreground group-hover:text-accent transition-default">
+            <p className="text-sm font-medium text-foreground">
               {prev.title}
             </p>
           </div>
@@ -30,15 +30,15 @@ export default function PageNavigation({ prev, next }: PageNavigationProps) {
       {next ? (
         <Link
           href={next.href}
-          className="flex-1 flex items-center gap-3 p-4 rounded-lg border border-border hover:border-accent hover:bg-accent-light/50 transition-default group"
+          className="flex-1 flex items-center gap-3 p-4 rounded-lg border border-border bg-card hover:bg-muted transition-default group"
         >
           <div className="flex-1">
             <p className="text-xs text-muted-foreground mb-0.5">Next</p>
-            <p className="text-sm font-medium text-foreground group-hover:text-accent transition-default">
+            <p className="text-sm font-medium text-foreground">
               {next.title}
             </p>
           </div>
-          <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-accent transition-default" />
+          <ChevronRight className="w-4 h-4 text-muted-foreground group-hover:text-foreground transition-default" />
         </Link>
       ) : (
         <div className="flex-1" />

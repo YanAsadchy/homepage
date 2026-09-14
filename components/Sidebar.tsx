@@ -26,13 +26,13 @@ function NavLink({ item, depth = 0 }: { item: NavItem; depth?: number }) {
         ${depth > 0 ? 'ml-4' : ''}
         ${
           isActive
-            ? 'bg-accent-light text-accent font-medium'
+            ? 'bg-sidebar-active text-foreground font-medium'
             : 'text-sidebar-foreground hover:bg-muted hover:text-foreground'
         }
       `}
     >
       {item.icon && (
-        <span className={`flex-shrink-0 ${isActive ? 'text-accent' : 'text-muted-foreground'}`}>
+        <span className={`flex-shrink-0 ${isActive ? 'text-foreground' : 'text-muted-foreground'}`}>
           {getIcon(item.icon, 'w-4 h-4')}
         </span>
       )}
