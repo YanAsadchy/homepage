@@ -1,4 +1,4 @@
-import { Info, AlertTriangle, CheckCircle, ExternalLink } from 'lucide-react';
+import { Info, AlertTriangle, CheckCircle, ExternalLink, ChevronRight } from 'lucide-react';
 import { ReactNode } from 'react';
 
 // Callout/Hint components matching GitBook style
@@ -115,6 +115,21 @@ function Tooltip({ term, description }: { term: string; description: string }) {
   );
 }
 
+// Expandable panel (collapsed by default), e.g. for program days
+function Expandable({ title, children }: { title: string; children: ReactNode }) {
+  return (
+    <details className="expandable group my-2 rounded-lg border border-border bg-card">
+      <summary className="flex items-center gap-3 px-4 py-3 rounded-lg cursor-pointer select-none list-none text-[0.9375rem] font-medium text-foreground hover:bg-muted group-open:rounded-b-none transition-default">
+        <ChevronRight className="w-4 h-4 flex-shrink-0 text-muted-foreground group-open:rotate-90 transition-default" />
+        <span className="flex-1">{title}</span>
+      </summary>
+      <div className="expandable-content px-4 pb-4 pt-1 pl-11 text-[0.9375rem] text-muted-foreground">
+        {children}
+      </div>
+    </details>
+  );
+}
+
 export const mdxComponents = {
   Callout,
   Figure,
@@ -122,4 +137,5 @@ export const mdxComponents = {
   TimelineEntry,
   CTAButton,
   Tooltip,
+  Expandable,
 };

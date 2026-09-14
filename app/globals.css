@@ -207,6 +207,35 @@ body {
   color: #d4ff5c;
 }
 
+/* ── Expandable blocks ────────────────────────────────── */
+.expandable summary::-webkit-details-marker {
+  display: none;
+}
+.expandable summary:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 2px;
+}
+.expandable-content > :first-child {
+  margin-top: 0;
+}
+.expandable-content > :last-child {
+  margin-bottom: 0;
+}
+/* Smooth open/close where the browser can animate to height: auto */
+@supports (interpolate-size: allow-keywords) {
+  .expandable {
+    interpolate-size: allow-keywords;
+  }
+  .expandable::details-content {
+    height: 0;
+    overflow: clip;
+    transition: height 200ms ease, content-visibility 200ms allow-discrete;
+  }
+  .expandable[open]::details-content {
+    height: auto;
+  }
+}
+
 /* ── Search highlight ─────────────────────────────────── */
 .search-highlight {
   background: var(--accent-light);
